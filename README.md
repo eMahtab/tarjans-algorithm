@@ -15,4 +15,11 @@ Tarjan's algorithm is used to find the strongly connected components in a graph 
   
   
 
+# References :
+1. Tarjan's Algorithm : https://www.youtube.com/watch?v=RYaakWv5m6o
+2. Critical connections in a network : https://github.com/eMahtab/critical-connections-in-a-network
+
+  
+  
+
 
