@@ -1,6 +1,9 @@
 # Tarjan's Algorithm
 Tarjan's algorithm is used to find the strongly connected components in a graph using DFS.
 
+### Strongly Connected Component :
+If we can reach every vertex of a component from every other vertex in that component then it is called a Strongly Connected Component (SCC). 
+
 ## Algorithm :
 1. Initialize both `discovery` and `low` array with -1, note that `discovery` array will serve two purposes : if discovery[vertex] == -1 it means this vertex was not discovered before and second purpose is we will store the discovery id of vertex at discovery[vertex].
 2. Take a `parents` array and initialize all the entries with -1. parents array will be used so that while doing dfs for neighbor v from parent u, we don't consider the parent node u. Before calling the DFS on neighbor v we will set `parents[v] = u`
