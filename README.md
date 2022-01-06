@@ -1,4 +1,4 @@
-# Tarjan's Algorithm
+# Tarjan's Algorithm : O(V + E)
 Tarjan's algorithm is used to find the strongly connected components in a graph using DFS.
 
 ### Strongly Connected Component :
