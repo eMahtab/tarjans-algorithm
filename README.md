@@ -6,6 +6,6 @@ Tarjan's algorithm is used to find the strongly connected components in a graph 
 2. Take a variable which denotes the id at which a vertex was first discovered and initialize it to 0
 3. Start the DFS from vertex 0
 4. If the vertex is not already discovered then set `discovery[vertex] and low[vertex] to be id` and increment id by 1 for next node.
-5. 
+5. Next check all the neighbors of this vertex (those which are not yet discovered and also those which are already discovered).
 
 
